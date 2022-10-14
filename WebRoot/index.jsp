@@ -5,6 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>CivTracker</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<p>DTG: <% out.println( java.util.Calendar.getInstance().getTime() ); %></p>
